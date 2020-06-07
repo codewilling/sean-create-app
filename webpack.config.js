@@ -10,6 +10,8 @@ module.exports = {
 
     // Enable sourcemaps for debugging webpack's output.
     devtool: "source-map",
+    //'source-map' Maybe caused in issue with memory(Ineffective mark-compacts near heap limit Allocation failed), added more memory with 
+    // 'export NODE_OPTIONS="--max-old-space-size=8192' command in terminal.
 
     resolve: {
         // Add '.ts' and '.tsx' as resolvable extensions.
@@ -42,6 +44,14 @@ module.exports = {
                 test: /\.html$/,
                 use: ['html-loader']
             },
+            {
+                test: /\.(png|jpe?g|gif)$/i,
+                use: [
+                  {
+                    loader: 'file-loader',
+                  },
+                ],
+              },
             {
                 test: /\.s[ac]ss$/,
                 use: [

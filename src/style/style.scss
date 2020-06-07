@@ -1,3 +1,19 @@
 body {
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url('https://res.cloudinary.com/juntola/image/upload/v1591475731/website/lowpoly_1.png');
     background-color: steelblue;
+    background-size: cover;
+    font-family: 'Libre Franklin', sans-serif;
+} 
+h1{
+    color: rgb(255, 136, 0);
+}
+
+.mainContentWrapper {
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    background-color: powderblue;
+    border-radius: .2rem;
 }

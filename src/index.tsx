@@ -1,9 +1,9 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import './style/style.scss';
-import { Hello } from "./components/Hello";
+import { App } from "./components/App";
 
 ReactDOM.render(
-    <Hello name="Sean" mission="engineering" />,
-    document.getElementById("example")
+    <App />,
+    document.getElementById("root")
 );
