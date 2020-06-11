@@ -24,8 +24,4 @@ npm run server
 npm run dev
 ```
 ### Step 3
-<<<<<<< HEAD
 open your browser or client to http://localhost:5555 (or whichever port your process.env.port)
-=======
-open your browser or client to http://localhost:5555 (or whichever port your process.env.port)
->>>>>>> 2d7292d63d554bd8feefe24ab66b0ccff8bd702c
