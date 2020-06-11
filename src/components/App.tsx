@@ -3,7 +3,7 @@ import * as React from "react";
 export const App:React.FC = () => {
     return (
         <div className='mainContentWrapper'>
-            <h1>Main Content</h1>
+            <h1>App is online. Happy coding!</h1>
         </div>
     )
 };
