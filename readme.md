@@ -1,4 +1,5 @@
 # Sean's Create App boilerplate
+bootstrap this repo for a webpack/express/react/typescript/sass app
 ---
 ### Step 1 
 After cloning or downloading, boot-up app by installing dependencies:
